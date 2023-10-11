@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CARD */
+
+.card {
+  padding: 20px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 8px #00000021;
+  border-top: 2px solid #079a7d;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-right: 4px;
+  text-decoration: none;
+  color: #8E8E8E;
+  font: 15px 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.values {
+  margin-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  margin-right: 4px;
+  color: #8E8E8E;
+  font: 11px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.val {
+  color: #079A7D;
+  font: 18px 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* CARDS */
+
+.cards {
+  width: 48%;
+}
+
+/* MAIN CONTENT */
+
+.container {
+  margin: 20px 12px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BIG CARD */
+
+.big-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px #00000021;
+  border-top: 2px solid #079a7d;
+  margin-right: 40px;
+  padding: 20px 12px;
+  height: 100%;
+
+  .title {
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+
+  .values {
+    display: flex;
+  }
+
+  .purchase, .sale {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .val {
+    font-size: 37px;
+    padding: 12px 5px
+  }
+
+  .updateAt {
+    margin-right: 0 59px;
+    padding: 10px 0;
+    color: #8E8E8E;
+    font: 11px 'Roboto', Helvetica, Arial, sans-serif;
+  }
+
+  .btn {
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+    font: 14px 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 3px 14px;
+    margin: 10px 59px;
+    width: 255px;
+  }
+
+  .btn-success {
+    background-color: #079A7D;
+    border-radius: 6px;
+  }
+}
